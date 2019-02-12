@@ -8,7 +8,7 @@ txt = txt.lower()
 #print(txt.lower())
 
 # 替换特殊单词
-for r in '!"#$%&()*+,-./:;<=>?@[\\]^_‘{|}~\'':
+for r in '!"#$%&()*+,-./:;<=>?@[\\]^_‘{|}~':
     txt = txt.replace(r,' ')
 
 # 提取单词
